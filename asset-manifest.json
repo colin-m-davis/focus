@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/focus/static/css/main.0e2e44bb.css",
+    "main.js": "/focus/static/js/main.160c4631.js",
+    "index.html": "/focus/index.html",
+    "main.0e2e44bb.css.map": "/focus/static/css/main.0e2e44bb.css.map",
+    "main.160c4631.js.map": "/focus/static/js/main.160c4631.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0e2e44bb.css",
+    "static/js/main.160c4631.js"
+  ]
+}
