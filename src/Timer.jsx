@@ -35,8 +35,17 @@ function Timer() {
 
     return (
         <div style={style}>
-            <h3>{displayIsBreak}</h3>
-            <h1>{displayMinutesLeft}:{displaySecondsLeft}</h1>
+            <div className = "timer">
+                <h3>{displayIsBreak}</h3>
+                <h1>{displayMinutesLeft}:{displaySecondsLeft}</h1>
+            </div>
+
+            <div className = "contact">
+                <div className = "overlay">
+                    <a href= "https://colindavis.xyz" >Contact</a>
+                    <a href= "https://github.com/colin-m-davis/focus" >GitHub</a>
+                </div>
+            </div>
         </div>
     );
 }

@@ -1,4 +1,4 @@
-div {
+.timer {
     min-height: 100vh;
     width: 100vw;
     display: flex;
@@ -6,4 +6,36 @@ div {
     align-items: center;
     justify-content: center;
     font-size: calc(10px + 2vmin);
+}
+
+.contact {
+    position: fixed;
+    width: 150px;
+    height: 100vh;
+    bottom: 0;
+    right: 0;
+}
+
+.overlay {
+    position: absolute;
+    left: 400px;
+    right: 0;
+    overflow: hidden;
+    width: 150px;
+    height: 100%;
+    transition: 0.5s ease;
+    display: flex;
+    justify-content: center;
+}
+
+.contact:hover .overlay {
+    left: 0px;
+    height: 100%;
+}
+
+a {
+    text-align: center;
+    color: cyan;
+    width: 150px;
+    height: 50%;
 }
