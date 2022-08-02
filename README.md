@@ -1,5 +1,7 @@
 # Focus
 
+https://www.colindavis.xyz/focus/
+
 Focus is a straightforward implemenetation of the [Pomodoro Techinque](https://en.wikipedia.org/wiki/Pomodoro_Technique). When the browser loads the single-page app, a 25-minute timer begins counting down. At the end of this "focus" period, a 5-minute "break" period begins automatically. At the end of this "break" period, another "focus" period begins, and so on.
 
 ## Technologies
